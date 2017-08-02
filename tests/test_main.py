@@ -31,6 +31,7 @@ class TestCases(object):
         self.test(f1, f2, 7)
         self.test(f1, f2, 8)
         self.test(f1, f2, 9)
+        self.test(f1, f2, 30)
         self.test(f1, f2, 60)
     
     def test(self, func1, func2, n):
